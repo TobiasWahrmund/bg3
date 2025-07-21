@@ -307,6 +307,7 @@ function renderForm() {
       });
 	  document.getElementById(`race-icon-${i}`).src = raceIcons[raceVal];
       subraceSelect.dispatchEvent(new Event("change"));
+      location.reload();
       updateSummary();
     });
 
