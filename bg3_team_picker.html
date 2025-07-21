@@ -45,26 +45,6 @@
     }
   </style>
 </head>
-<body>
-
-<h1>Baldur's Gate 3 – Team Picker</h1>
-<p>Wählt eure Rasse, Subrasse, Klasse und Subklasse. Speichert automatisch im Browser!</p>
-
-<div id="players"></div>
-<button onclick="resetData()">🗑️ Zurücksetzen</button>
-
-<table>
-  <thead>
-    <tr>
-      <th>Spieler</th>
-      <th>Rasse</th>
-      <th>Subrasse</th>
-      <th>Klasse</th>
-      <th>Subklasse</th>
-    </tr>
-  </thead>
-  <tbody id="summary"></tbody>
-</table>
 
 <script>
 const playerNames = ["Georg", "Sebastian", "Johannes", "Tobi"];
@@ -363,6 +343,28 @@ function resetData() {
 
 renderForm();
 </script>
+	
+<body>
+
+<h1>Baldur's Gate 3 – Team Picker</h1>
+<p>Wählt eure Rasse, Subrasse, Klasse und Subklasse. Speichert automatisch im Browser!</p>
+
+<div id="players"></div>
+<button onclick="resetData()">🗑️ Zurücksetzen</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Spieler</th>
+      <th>Rasse</th>
+      <th>Subrasse</th>
+      <th>Klasse</th>
+      <th>Subklasse</th>
+    </tr>
+  </thead>
+  <tbody id="summary"></tbody>
+</table>
+
 
 </body>
 </html>
